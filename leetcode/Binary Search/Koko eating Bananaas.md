@@ -1,6 +1,6 @@
 - when changing the ceil value keep in either take value in double or long long otherwise in case of 
 integer it will return only the integer value only....
-
+```c++
 class Solution {
 public:
     int minEatingSpeed(vector<int>& piles, int h) {
@@ -38,3 +38,4 @@ public:
         return maxi;
     }
 };
+```

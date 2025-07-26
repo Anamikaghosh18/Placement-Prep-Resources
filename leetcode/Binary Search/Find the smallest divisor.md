@@ -1,7 +1,7 @@
 - there is a pattern in answer so we will apply binary search on answer....
 
 
-
+```c++
 class Solution {
 public:
     int smallestDivisor(vector<int>& nums, int threshold) {
@@ -37,3 +37,4 @@ public:
         return maxi;
     }
 };
+```
